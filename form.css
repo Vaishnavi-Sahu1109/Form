@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(79, 79, 79, 0.422);
+    border-radius: 10px;
+    padding: 20px 50px;
+    width: 300px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+
+}
+
+button {
+    padding: 10px;
+    background-color: rgba(31, 24, 24, 0.951);
+    color: white;
+    border-radius: 5px;
+}
